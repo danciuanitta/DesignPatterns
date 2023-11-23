@@ -12,7 +12,7 @@ namespace Factory.Theory
         //services.AddTransient<IRelayService, LiveRelayService>();
         public void SomeMethod(string conditionalValue)
         {
-            Creator? creator = null;
+            ICreator? creator = null;
             if (conditionalValue.Equals("value1"))
                 creator = new ProductCreator1();
             else

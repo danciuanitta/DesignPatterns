@@ -1,7 +1,7 @@
 ﻿
 namespace Factory.Theory
 {
-    internal class Product2 : Product
+    internal class Product2 : IProduct
     {
     }
 }

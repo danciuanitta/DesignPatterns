@@ -1,8 +1,8 @@
 ﻿namespace Factory.Theory
 {
-    internal class ProductCreator2 : Creator
+    internal class ProductCreator2 : ICreator
     {
-        public override Product Create()
+        public IProduct Create()
         {
             return new Product2();
         }
