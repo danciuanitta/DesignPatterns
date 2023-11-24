@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Theory
 {
-    internal class PartBCreator
+    internal interface IProductA
     {
     }
 }
