@@ -3,6 +3,8 @@ namespace Factory.Practice.IAmTimCorey_2
 {
     internal class VehicleFactory : IVehicleFactory
     {
+        //using Func instead of IEnumerable, the actual creation of the (needed( IVehicle instance is deffered until the Create method is called.
+        //With IEnumerable, you actually inject a list of instances, so they are all created at VehicleFactory object creation.
         private readonly Func<IEnumerable<IVehicle>> factory;
         //private readonly IEnumerable<IVehicle> services;
 
