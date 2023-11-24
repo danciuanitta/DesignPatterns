@@ -10,7 +10,7 @@ namespace Prototype.Theory
         }
         public void SomeMethod()
         {
-            IProduct product = new Product1() { SomeField = 1 };
+            IProduct product = new Product1() { SomeField = "1" };
             Console.WriteLine(product.SomeField);
             
             var newProduct = (Product1)prototype.Clone();
