@@ -13,15 +13,15 @@ namespace Builder.Theory
             _object = new ComplexObject();
         }
 
-        public Builder BuildPartA( ProductA1 productA1)
+        public Builder BuildPartA()
         {
-            _object.ProductA1 = productA1;
+            _object.ProductA1 = new ProductA1();
             return this;
         }
 
-        public Builder BuildPartB(ProductA2 productA2)
+        public Builder BuildPartB()
         {
-            _object.ProductA2 = productA2;
+            _object.ProductA2 = new ProductA2();
             return this;
         }
 

@@ -3,6 +3,6 @@
     //pizza store
     public interface ICreator
     {
-        public abstract IProduct Create();
+        public IProduct Create();
     }
 }

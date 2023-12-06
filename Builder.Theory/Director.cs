@@ -9,12 +9,10 @@
             this.builder = builder;
         }
 
-        public ComplexObject SomeMethod()
+        public ComplexObject Construct()
         {
-            var firstPart = new ProductA1();
-            var secondPart = new ProductA2();
-
-            var output = builder.BuildPartA(firstPart).BuildPartB(secondPart).Build();
+            //GoF: for all objects in structure => builder->BuildPart()
+            var output = builder.BuildPartA().BuildPartB().Build();
 
             return output;
         }
