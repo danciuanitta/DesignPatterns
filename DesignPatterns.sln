@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Practice", "Adapter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Practice", "Bridge.Practice\Bridge.Practice.csproj", "{F3BFFD66-2588-4CFC-B914-6920D9566058}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Theory", "Decorator.Theory\Decorator.Theory.csproj", "{5D055FC5-ADEE-4842-ABFC-DDE586BD16C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{F3BFFD66-2588-4CFC-B914-6920D9566058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3BFFD66-2588-4CFC-B914-6920D9566058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3BFFD66-2588-4CFC-B914-6920D9566058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D055FC5-ADEE-4842-ABFC-DDE586BD16C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D055FC5-ADEE-4842-ABFC-DDE586BD16C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D055FC5-ADEE-4842-ABFC-DDE586BD16C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D055FC5-ADEE-4842-ABFC-DDE586BD16C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
