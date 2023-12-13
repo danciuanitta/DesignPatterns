@@ -37,9 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.Theory", "Decorat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.Practice", "Decorator.Practice\Decorator.Practice.csproj", "{A5BA3D83-6572-43D7-8502-8056816E7550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Theory", "Facade.Theory\Facade.Theory.csproj", "{ED2CE135-9986-4003-AEA8-46A332F470F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Theory", "Facade.Theory\Facade.Theory.csproj", "{ED2CE135-9986-4003-AEA8-46A332F470F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Practice", "Facade.Practice\Facade.Practice.csproj", "{AFF4B87C-2644-4493-8AA3-70E270381957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Practice", "Facade.Practice\Facade.Practice.csproj", "{AFF4B87C-2644-4493-8AA3-70E270381957}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight.Theory", "Flyweight.Theory\Flyweight.Theory.csproj", "{76DC70CD-F35C-4B90-9D3E-5821C06ECDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.Practice", "Flyweight.Practice\Flyweight.Practice.csproj", "{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{AFF4B87C-2644-4493-8AA3-70E270381957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFF4B87C-2644-4493-8AA3-70E270381957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFF4B87C-2644-4493-8AA3-70E270381957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DC70CD-F35C-4B90-9D3E-5821C06ECDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DC70CD-F35C-4B90-9D3E-5821C06ECDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DC70CD-F35C-4B90-9D3E-5821C06ECDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DC70CD-F35C-4B90-9D3E-5821C06ECDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
