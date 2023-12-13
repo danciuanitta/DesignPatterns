@@ -45,6 +45,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight.Theory", "Flyweig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.Practice", "Flyweight.Practice\Flyweight.Practice.csproj", "{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.Theory", "Proxy.Theory\Proxy.Theory.csproj", "{DE581052-980B-49D5-BCB5-4C9533A82A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.Practice", "Proxy.Practice\Proxy.Practice.csproj", "{686B7A59-6A19-49B6-9FEA-1CA4EB4C540D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6025FA6E-E2E8-4EAB-AF9A-8C2A9E33FA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE581052-980B-49D5-BCB5-4C9533A82A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE581052-980B-49D5-BCB5-4C9533A82A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE581052-980B-49D5-BCB5-4C9533A82A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE581052-980B-49D5-BCB5-4C9533A82A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686B7A59-6A19-49B6-9FEA-1CA4EB4C540D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686B7A59-6A19-49B6-9FEA-1CA4EB4C540D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686B7A59-6A19-49B6-9FEA-1CA4EB4C540D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686B7A59-6A19-49B6-9FEA-1CA4EB4C540D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
