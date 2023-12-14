@@ -12,7 +12,7 @@ namespace Strategy.Practice
 
         public void Operation()
         {
-            //this should be caried by an abstract factory not directly in client logic
+            //this should be caried by an factory not directly in client logic
             string notificationType = "Email";
             INotificationService? chosenStrategy = _notifications.FirstOrDefault(x => x.NotificationType.Equals(notificationType));
             if (chosenStrategy is null)
