@@ -8,10 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mediator.Practice.WithMediatR\Mediator.Practice.WithMediatR.csproj" />
+    <ProjectReference Include="..\Mediator.Practice\Mediator.Practice.csproj" />
     <ProjectReference Include="..\Prototype.Theory\Prototype.Theory.csproj" />
   </ItemGroup>
 

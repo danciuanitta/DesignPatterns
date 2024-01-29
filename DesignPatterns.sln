@@ -57,19 +57,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy.Theory", "Strategy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy.Practice", "Strategy.Practice\Strategy.Practice.csproj", "{A43D7B2C-6998-448A-B46A-BBAFD34B3999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.Theory", "ChainOfResponsibility.Theory\ChainOfResponsibility.Theory.csproj", "{C761E186-2F63-466E-BA57-B4C7B6EF9B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility.Theory", "ChainOfResponsibility.Theory\ChainOfResponsibility.Theory.csproj", "{C761E186-2F63-466E-BA57-B4C7B6EF9B6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility.Practice", "ChainOfResponsibility.Practice\ChainOfResponsibility.Practice.csproj", "{06D60CD3-D6F4-4CB5-B65B-B2512A0A877E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility.Practice", "ChainOfResponsibility.Practice\ChainOfResponsibility.Practice.csproj", "{06D60CD3-D6F4-4CB5-B65B-B2512A0A877E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.Theory", "State.Theory\State.Theory.csproj", "{8AD04C4E-97A2-4299-9CCD-DB644A730680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State.Theory", "State.Theory\State.Theory.csproj", "{8AD04C4E-97A2-4299-9CCD-DB644A730680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.Practice", "State.Practice\State.Practice.csproj", "{7741C6C3-B4D3-4A0B-9AF7-D08A20131D51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State.Practice", "State.Practice\State.Practice.csproj", "{7741C6C3-B4D3-4A0B-9AF7-D08A20131D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Theory", "Command.Theory\Command.Theory.csproj", "{01990FCF-023A-4D07-ACF8-2FF1CD62A40B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Theory", "Command.Theory\Command.Theory.csproj", "{01990FCF-023A-4D07-ACF8-2FF1CD62A40B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Practice", "Command.Practice\Command.Practice.csproj", "{1BEAB689-C290-4F96-83D3-1CA1E60A2B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Practice", "Command.Practice\Command.Practice.csproj", "{1BEAB689-C290-4F96-83D3-1CA1E60A2B17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Theory", "Mediator.Theory\Mediator.Theory.csproj", "{CBBB8A14-06C9-4CBA-9F20-57B708EF0C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Theory", "Mediator.Theory\Mediator.Theory.csproj", "{CBBB8A14-06C9-4CBA-9F20-57B708EF0C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Practice", "Mediator.Practice\Mediator.Practice.csproj", "{D720A874-3A60-479A-936E-6CFF9ADE595E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Practice.WithMediatR", "Mediator.Practice.WithMediatR\Mediator.Practice.WithMediatR.csproj", "{C852DA35-BF38-424E-864E-5097A5428055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,14 @@ Global
 		{CBBB8A14-06C9-4CBA-9F20-57B708EF0C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBBB8A14-06C9-4CBA-9F20-57B708EF0C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBBB8A14-06C9-4CBA-9F20-57B708EF0C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D720A874-3A60-479A-936E-6CFF9ADE595E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D720A874-3A60-479A-936E-6CFF9ADE595E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D720A874-3A60-479A-936E-6CFF9ADE595E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D720A874-3A60-479A-936E-6CFF9ADE595E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C852DA35-BF38-424E-864E-5097A5428055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C852DA35-BF38-424E-864E-5097A5428055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C852DA35-BF38-424E-864E-5097A5428055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C852DA35-BF38-424E-864E-5097A5428055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

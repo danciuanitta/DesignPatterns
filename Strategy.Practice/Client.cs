@@ -3,9 +3,10 @@ namespace Strategy.Practice
 {
     internal class Client
     {
-        private readonly IList<INotificationService> _notifications;
+        private readonly IEnumerable<INotificationService> _notifications;
 
-        public Client(IList<INotificationService> notifications)
+        //this could be done with lazy to not instantiate all objects if not needed
+        public Client(IEnumerable<INotificationService> notifications)
         {
             _notifications = notifications;
         }
